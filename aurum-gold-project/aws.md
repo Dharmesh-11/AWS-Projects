@@ -121,43 +121,43 @@ sudo systemctl restart nginx
 
 ### ☁️ AWS EC2 Setup
 
-![EC2 Setup](screenshot/screenshot-1.png)
+![EC2 Setup](Screenshot/screenshot-1.png)
 
 ---
 
 ### ⚙️ Instance Configuration
 
-![Instance Config](screenshot/Screenshot-2.png)
+![Instance Config](Screenshot/Screenshot-2.png)
 
 ---
 
 ### 🔐 Security Group & Storage
 
-![Security Group](screenshot/Screenshot-3.png)
+![Security Group](Screenshot/Screenshot-3.png)
 
 ---
 
 ### 🧾 User Data Script
 
-![User Data](screenshot/Screenshot-4.png)
+![User Data](Screenshot/Screenshot-4.png)
 
 ---
 
 ### 🔗 SSH Connection
 
-![SSH Connect](screenshot/Screenshot-5.png)
+![SSH Connect](Screenshot/Screenshot-5.png)
 
 ---
 
 ### 📤 File Upload (SCP)
 
-![SCP Upload](screenshot/Screenshot-6.png)
+![SCP Upload](Screenshot/Screenshot-6.png)
 
 ---
 
 ### 📂 Files in Server
 
-![Server Files](screenshot/Screenshot-7.png)
+![Server Files](Screenshot/Screenshot-7.png)
 
 ---
 
