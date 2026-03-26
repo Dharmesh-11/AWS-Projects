@@ -45,6 +45,8 @@ It demonstrates real-world cloud deployment, server setup, and hosting a profess
 
 User → Internet → AWS EC2 → Nginx → Website
 
+![project Arechitecture](images/architecture.png)
+
 ---
 
 ## 📂 Project Structure
@@ -113,49 +115,49 @@ sudo systemctl restart nginx
 
 ### 🌐 Website Output
 
-![Website](screenshots/output.png)
+![Website](screenshot/output.png)
 
 ---
 
 ### ☁️ AWS EC2 Setup
 
-![EC2 Setup](screenshots/Screenshot-1.png)
+![EC2 Setup](screenshot/screenshot-1.png)
 
 ---
 
 ### ⚙️ Instance Configuration
 
-![Instance Config](screenshots/Screenshot-2.png)
+![Instance Config](screenshot/Screenshot-2.png)
 
 ---
 
 ### 🔐 Security Group & Storage
 
-![Security Group](screenshots/Screenshot-3.png)
+![Security Group](screenshot/Screenshot-3.png)
 
 ---
 
 ### 🧾 User Data Script
 
-![User Data](screenshots/Screenshot-4.png)
+![User Data](screenshot/Screenshot-4.png)
 
 ---
 
 ### 🔗 SSH Connection
 
-![SSH Connect](screenshots/Screenshot-5.png)
+![SSH Connect](screenshot/Screenshot-5.png)
 
 ---
 
 ### 📤 File Upload (SCP)
 
-![SCP Upload](screenshots/Screenshot-6.png)
+![SCP Upload](screenshot/Screenshot-6.png)
 
 ---
 
 ### 📂 Files in Server
 
-![Server Files](screenshots/Screenshot-7.png)
+![Server Files](screenshot/Screenshot-7.png)
 
 ---
 
