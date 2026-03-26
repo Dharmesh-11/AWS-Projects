@@ -41,141 +41,110 @@ It demonstrates real-world cloud deployment, server setup, and hosting a profess
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture Diagram
 
-User → Internet → AWS EC2 → Nginx → Website
+![Architecture](images/architecture.png)
 
 ---
 
 ## 📂 Project Structure
 
-```
 aurum-gold-project/
-│
-├── index.html
-├── templatemo-aurum-gold.css
-├── templatemo-aurum-script.js
-├── setup.sh
-├── README.md
-│
-├── images/
-└── screenshots/
-```
+
+* index.html
+* templatemo-aurum-gold.css
+* templatemo-aurum-script.js
+* setup.sh
+* README.md
+* architecture.png
+* images/
+* screenshots/
 
 ---
 
 ## 🚀 Deployment Steps
 
-### 1️⃣ Launch EC2 Instance
+### 1️⃣ Connect to Server
 
-* Ubuntu Server
-* Instance type: t2.micro
-* Allow ports:
-
-  * 22 (SSH)
-  * 80 (HTTP)
-
----
-
-### 2️⃣ Connect to Server
-
-```
 ssh -i b78.pem ubuntu@3.26.242.156
-```
 
 ---
 
-### 3️⃣ Upload Project Files
+### 2️⃣ Upload Project
 
-```
 scp -i b78.pem -r aurum-gold-project ubuntu@3.26.242.156:~
-```
 
 ---
 
-### 4️⃣ Move Files to Web Server
+### 3️⃣ Move Files
 
-```
 sudo cp -rf aurum-gold-project/* /var/www/html/
-```
 
 ---
 
-### 5️⃣ Restart Nginx
+### 4️⃣ Restart Server
 
-```
 sudo systemctl restart nginx
-```
 
 ---
 
 ## 📸 Screenshots
 
-### 🌐 Website Output
-
-![Website](screenshots/output.png)
-
----
-
 ### ☁️ AWS EC2 Setup
 
-![EC2 Setup](screenshots/Screenshot-1.png)
+![EC2 Setup](Screenshot/Screenshot-1.png)
 
 ---
 
 ### ⚙️ Instance Configuration
 
-![Instance Config](screenshots/Screenshot-2.png)
+![Instance Config](Screenshot/Screenshot-2.png)
 
 ---
 
-### 🔐 Security Group & Storage
+### 🔐 Security Group
 
-![Security Group](screenshots/Screenshot-3.png)
+![Security](Screenshot/Screenshot-3.png)
 
 ---
 
 ### 🧾 User Data Script
 
-![User Data](screenshots/Screenshot-4.png)
+![User Data](Screenshot/Screenshot-4.png)
 
 ---
 
 ### 🔗 SSH Connection
 
-![SSH Connect](screenshots/Screenshot-5.png)
+![SSH](Screenshot/Screenshot-5.png)
 
 ---
 
 ### 📤 File Upload (SCP)
 
-![SCP Upload](screenshots/Screenshot-6.png)
+![SCP](Screenshot/Screenshot-6.png)
 
 ---
 
-### 📂 Files in Server
+### 📂 Server Files
 
-![Server Files](screenshots/Screenshot-7.png)
+![Server](Screenshot/Screenshot-7.png)
+
+---
+
+### 🌐 Website Output
+
+![Website](Screenshot/output.image.png)
 
 ---
 
 ## 🔥 Key Learnings
 
-* How to launch AWS EC2 instance
-* How to connect using SSH
-* How to upload files using SCP
-* How to configure Nginx
-* How to deploy a live website
-
----
-
-## 🎯 Future Improvements
-
-* Add backend (Node.js / Django)
-* Add database (MySQL)
-* Add authentication (Login/Signup)
-* Add payment integration
-* Add custom domain + HTTPS
+* AWS EC2 setup
+* SSH connection
+* File transfer using SCP
+* Nginx configuration
+* Website deployment
 
 ---
 
@@ -187,6 +156,4 @@ Dharmesh Panpatil
 
 ## ⭐ Conclusion
 
-This project demonstrates **real-world cloud deployment and DevOps skills**, making it a strong addition to a portfolio or resume.
-
----
+This project demonstrates **real-world AWS deployment and DevOps skills**, making it a strong portfolio project.
