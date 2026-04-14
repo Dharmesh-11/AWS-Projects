@@ -38,76 +38,108 @@ Static Website Files
 # Step-by-Step Deployment Process
 
 ## Step 1: Create S3 Bucket
-Created bucket named:
+* Created bucket named:
+
 amzn-s3-bux-demo
-<img src="screenshots/Screenshot-1.png" width="100%">
+
+<img src="Screenshot/Screenshot-1.png" width="100%">
 
 ## Step 2: Configure Object Ownership
 Enabled ACLs and selected:
-Bucket owner preferred
-<img src="screenshots/Screenshot-2.png" width="100%">
+
+* Bucket owner preferred
+
+<img src="Screenshot/Screenshot-2.png" width="100%">
 
 ## Step 3: Disable Block Public Access
 Unchecked block public access for website hosting.
-<img src="screenshots/Screenshot-3.png" width="100%">
+
+<img src="Screenshot/Screenshot-3.png" width="100%">
 
 ## Step 4: S3 Bucket Created Successfully
-Bucket created successfully.
-<img src="screenshots/Screenshot-4.png" width="100%">
+* Bucket created successfully.
+
+<img src="Screenshot/Screenshot-4.png" width="100%">
 
 ## Step 5: Upload Website Files
-Uploaded all website project files.
-<img src="screenshots/Screenshot-5.png" width="100%">
+* Uploaded all website project files.
+
+<img src="Screenshot/Screenshot-5.png" width="100%">
 
 ## Step 6: Edit ACL Permissions
-Configured public read permissions.
-<img src="screenshots/Screenshot-6.png" width="100%">
+* Configured public read permissions.
+  
+<img src="Screenshot/Screenshot-6.png" width="100%">
 
 ## Step 7: Make Files Public
-Made uploaded files public using ACL.
-<img src="screenshots/Screenshot-7.png" width="100%">
+* Made uploaded files public using ACL.
+  
+<img src="Screenshot/Screenshot-7.png" width="100%">
 
 ## Step 8: Public Access Updated Successfully
-Public access applied successfully.
-<img src="screenshots/Screenshot-8.png" width="100%">
+* Public access applied successfully.
+
+<img src="Screenshot/Screenshot-8.png" width="100%">
 
 ## Step 9: Enable Static Website Hosting
-Enabled:
+
+* Enabled:
+
 Static Website Hosting = EnableIndex Document = index.html
-<img src="screenshots/Screenshot-9.png" width="100%">
+
+<img src="Screenshot/Screenshot-9.png" width="100%">
 
 ## Step 10: S3 Website Endpoint Generated
-Website endpoint created successfully.
-<img src="screenshots/Screenshot-10.png" width="100%">
+
+* Website endpoint created successfully.
+  
+<img src="Screenshot/Screenshot-10.png" width="100%">
 
 ## Step 11: Create CloudFront Distribution
-Started creating CloudFront distribution.
+
+* Started creating CloudFront distribution.
+  
 Distribution name:
+
 host1
-<img src="screenshots/Screenshot-11.png" width="100%">
+
+<img src="Screenshot/Screenshot-11.png" width="100%">
 
 ## Step 12: Select S3 Origin
+
 Selected S3 website endpoint as origin.
-<img src="screenshots/Screenshot-12.png" width="100%">
+
+<img src="Screenshot/Screenshot-12.png" width="100%">
 
 ## Step 13: Configure Cache Settings
-Selected:
+
+* Selected:
+  
 HTTP and HTTPSGET, HEAD
-<img src="screenshots/Screenshot-13.png" width="100%">
+
+<img src="Screenshot/Screenshot-13.png" width="100%">
 
 ## Step 14: Disable WAF Protection
-Selected:
+
+* Selected:
+  
 Do not enable security protections
-<img src="screenshots/Screenshot-14.png" width="100%">
+
+<img src="Screenshot/Screenshot-14.png" width="100%">
 
 ## Step 15: CloudFront Distribution Created Successfully
-CloudFront domain generated:
+
+* CloudFront domain generated:
+
 d3kx62lguv64jv.cloudfront.net
-<img src="screenshots/Screenshot-15.png" width="100%">
+
+<img src="Screenshot/Screenshot-15.png" width="100%">
 
 # Final Output – Live Website
-Website deployed successfully and accessible globally.
-<img src="screenshots/Screenshot-16.png" width="100%">
+
+* Website deployed successfully and accessible globally.
+  
+<img src="Screenshot/Screenshot-16.png" width="100%">
 
 
 ## Learning Outcomes
