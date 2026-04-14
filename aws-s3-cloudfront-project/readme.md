@@ -45,14 +45,14 @@ amzn-s3-bux-demo
 <img src="Screenshot/Screenshot-1.png" width="100%">
 
 ## Step 2: Configure Object Ownership
-Enabled ACLs and selected:
+* Enabled ACLs and selected:
 
 * Bucket owner preferred
 
 <img src="Screenshot/Screenshot-2.png" width="100%">
 
 ## Step 3: Disable Block Public Access
-Unchecked block public access for website hosting.
+* Unchecked block public access for website hosting.
 
 <img src="Screenshot/Screenshot-3.png" width="100%">
 
@@ -99,39 +99,31 @@ Static Website Hosting = EnableIndex Document = index.html
 
 * Started creating CloudFront distribution.
   
-Distribution name:
-
-host1
+* Distribution name: host1
 
 <img src="Screenshot/Screenshot-11.png" width="100%">
 
 ## Step 12: Select S3 Origin
 
-Selected S3 website endpoint as origin.
+* Selected S3 website endpoint as origin.
 
 <img src="Screenshot/Screenshot-12.png" width="100%">
 
 ## Step 13: Configure Cache Settings
 
-* Selected:
-  
-HTTP and HTTPSGET, HEAD
+* Selected: HTTP and HTTPS,GET, HEAD
 
 <img src="Screenshot/Screenshot-13.png" width="100%">
 
 ## Step 14: Disable WAF Protection
 
-* Selected:
-  
-Do not enable security protections
+* Selected: Do not enable security protections
 
 <img src="Screenshot/Screenshot-14.png" width="100%">
 
 ## Step 15: CloudFront Distribution Created Successfully
 
-* CloudFront domain generated:
-
-d3kx62lguv64jv.cloudfront.net
+* CloudFront domain generated: d3kx62lguv64jv.cloudfront.net
 
 <img src="Screenshot/Screenshot-15.png" width="100%">
 
